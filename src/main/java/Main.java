@@ -118,10 +118,10 @@ public class Main {
         }
     }
     public static void main(String[] args){
-        //getAllStudents();
-        //updateStudentEmail(3, "BEAM@ex.com");
-        //addStudent("Johan", "Cruyf", "barca@wow.com",   "1971-10-10");
-        //deleteStudent(2);
+        getAllStudents();
+        updateStudentEmail(3, "BEAM@ex.com");
+        addStudent("Johan", "Cruyf", "barca@wow.com",   "1971-10-10");
+        deleteStudent(2);
 
 
     }
