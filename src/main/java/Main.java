@@ -108,6 +108,8 @@ public class Main {
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(url, user, password);
             PreparedStatement statement = connection.prepareStatement(query);
+
+            // set statements to fill in the question mark in the above query string
             statement.setInt(1,student_id);
             statement.executeUpdate();
 
