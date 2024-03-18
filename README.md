@@ -20,7 +20,7 @@ Setup instructions:
 How to compile and run:
 - Ensure PostgreSQL is running on your computer.
 - Open the entire project folder in your desired IDE (preferably Intellij or VSCode).
-- With the IDE, navigate to the Main.java file inside the src/main/java directory. 
+- Within the IDE, navigate to the Main.java file inside the src/main/java directory. 
 - Press the run keyword or the green play button to compile and run the Main.java program.
 
 Demo video link: https://youtu.be/EefM-dclJX8?si=NIFG1KjeAj6EqWZi
