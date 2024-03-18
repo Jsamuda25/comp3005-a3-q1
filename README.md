@@ -5,6 +5,9 @@ Jordon Samuda
 
 Purpose: Implement PostgreSQL database and perform specific operatiosn using Java (JBDC PostgreSQL Driver)
 
+Key contents:
+- Database scripts folder contains database creation and data insertion SQL scripts.
+- src/main/java folder contains Main.java source code file.
 
 Setup instructions:
 - Ensure your environment/machine is configured to work with JBDC and PostgreSQL.
