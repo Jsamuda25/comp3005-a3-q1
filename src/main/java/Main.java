@@ -74,7 +74,7 @@ public class Main {
      */
     static void updateStudentEmail(int student_id, String new_email){
 
-        var query = "UPDATE students SET email = ? WHERE student_id = ?";
+        String query = "UPDATE students SET email = ? WHERE student_id = ?";
 
         try{
             Class.forName("org.postgresql.Driver");
@@ -102,7 +102,7 @@ public class Main {
      */
     static void deleteStudent(int student_id){
 
-        var query = "DELETE FROM students WHERE student_id = ?";
+        String query = "DELETE FROM students WHERE student_id = ?";
 
         try{
             Class.forName("org.postgresql.Driver");
