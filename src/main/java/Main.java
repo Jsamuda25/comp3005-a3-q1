@@ -6,7 +6,7 @@ public class Main {
 
     static public String url = "jdbc:postgresql://localhost:5432/A3 - Q1"; // may need to update according to your specific postgresql setup
     static public String user = "postgres"; // may need to update according to your specific postgresql setup
-    static public String password= "bTY5y._QJ"; // must use password related to your postgresql servers/databases
+    static public String password= " "; // must use password related to your postgresql servers/databases
 
     /*
         Function: getAllStudents()
@@ -118,7 +118,7 @@ public class Main {
         }
     }
     public static void main(String[] args){
-        getAllStudents();
+        //getAllStudents();
         //updateStudentEmail(3, "BEAM@ex.com");
         //addStudent("Johan", "Cruyf", "barca@wow.com",   "1971-10-10");
         //deleteStudent(2);
