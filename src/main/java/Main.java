@@ -4,9 +4,9 @@ import  java.util.Date;
 
 public class Main {
 
-    static public String url = "jdbc:postgresql://localhost:5432/A3 - Q1"; // may need to update according to your specific postgresql setup
-    static public String user = "postgres"; // may need to update according to your specific postgresql setup
-    static public String password= " "; // must use password related to your postgresql servers/databases
+    static public String url = "jdbc:postgresql://localhost:5432/A3 - Q1"; // value must be url with port number and database name that matches your desired postgresql database
+    static public String user = "postgres"; // value must match postgresql username
+    static public String password= " "; // value must match postgresql password
 
     /*
         Function: getAllStudents()
