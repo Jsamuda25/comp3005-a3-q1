@@ -1,7 +1,6 @@
 # comp3005-a3-q1
  
-COMP3005 - Assignment 3 - Question 1
-Jordon Samuda
+Author: Jordon Samuda
 
 Purpose: Implement PostgreSQL database and perform specific operatiosn using Java (JBDC PostgreSQL Driver)
 
